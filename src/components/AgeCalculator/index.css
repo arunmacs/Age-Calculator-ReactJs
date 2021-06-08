@@ -1,0 +1,89 @@
+.bg-div {
+  background-image: linear-gradient(to right, #43cbff, #9708cc);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-div {
+  background-color: #ffffff;
+  border-radius: 18px;
+  width: 85%;
+  height: 320px;
+  max-height: 450px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading {
+  color: #171f46;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+input {
+  height: 40px;
+  width: 70%;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px;
+  margin: 15px;
+}
+
+.correct-result-age {
+  color: #8e1dd2;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+button {
+  background-image: linear-gradient(to right, #43cbff, #9708cc);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  border-width: 0;
+  width: 130px;
+  padding: 11px 22px 11px 22px;
+  margin: 15px;
+  outline: none;
+}
+
+.image-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .content-div {
+    width: 50%;
+    margin: 20px;
+    height: 350px;
+    max-height: 420px;
+  }
+  .image-div {
+    margin: 20px;
+  }
+  img {
+    width: 70%;
+  }
+}
